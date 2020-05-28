@@ -1,0 +1,272 @@
+define("iY",["exports"],function(e){
+  Object.defineProperty(e, "__esModule", { value: true });
+  var strings = {
+    "DefaultTitle":"Something went wrong",
+    "DefaultSubText":"Please try again or refresh the page.",
+    "ItemNotFoundTitle":"This item might not exist or is no longer available",
+    "ItemNotFoundSubText":"This item might have been deleted, expired, or you might not have permission to view it. Contact the owner of this item for more information.",
+    "retryButtonLabel":"Retry",
+    "offlineActionFailed":"Sorry, something went wrong. Make sure you have an internet connection and try again." 
+  };
+  e.strings = strings;
+  e.default = strings;
+});
+define("fu",["exports"],function(e){
+  Object.defineProperty(e, "__esModule", { value: true });
+  var strings = {
+    "InvalidViewTitle":"The specified view is invalid",
+    "InvalidViewSubText":"The specified view might have been deleted or you might not have permission to view it. Contact the site owner for more information.",
+    "InvalidListTitle":"The specified list is invalid",
+    "InvalidListSubText":"The specified list might have been deleted or you might not have permission to view it. Contact the site owner for more information.",
+    "QueryThrottledSubText":"The number of items in the list exceeds the list view threshold, which is 5000 items. You can return to the list to select a different view or visit the following article for guidance on how to work around the issue: {0}.",
+    "QueryThrottledLinkText":"manage list and libraries with many items",
+    "errorCorrelationIdText":"Correlation ID: {0}",
+    "errorInternetDisconnected":"Internet disconnected" 
+  };
+  e.strings = strings;
+  e.default = strings;
+});
+define("mo",["exports"],function(e){
+  Object.defineProperty(e, "__esModule", { value: true });
+  var strings = {
+    "sites":"Sites",
+    "frequent":"Frequent",
+    "followed":"Followed",
+    "documentLibraries":"Document Libraries" 
+  };
+  e.strings = strings;
+  e.default = strings;
+});
+define("mh",["exports"],function(e){
+  Object.defineProperty(e, "__esModule", { value: true });
+  var strings = {
+    "MoreSitesText":"More libraries",
+    "SharedLibrariesHeader":"Shared libraries" 
+  };
+  e.strings = strings;
+  e.default = strings;
+});
+define("f5",["exports"],function(e){
+  Object.defineProperty(e, "__esModule", { value: true });
+  var strings = {
+    "itemSignalNew":"This item is new",
+    "itemSignalNewTooltip":"This item is new",
+    "itemSignalMalwareDetected":"Malware Detected",
+    "itemSignalMalwareDetectedTooltip":"Malware detected. Some commands aren't available",
+    "itemSignalYouCheckedOut":"You checked out this item",
+    "itemSignalYouCheckedOutTooltip":"You checked out this item",
+    "itemSignalSomeoneCheckedOut":"Checked out by someone",
+    "itemSignalSomeoneCheckedOutTooltip":"{0} checked out this item",
+    "itemSignalBlocked":"Contains sensitive information",
+    "itemSignalBlockedTooltip":"Contains sensitive information",
+    "itemSignalWarning":"May contain sensitive information",
+    "itemSignalWarningTooltip":"May contain sensitive information",
+    "itemSignalMissingMetadata":"Missing metadata",
+    "itemSignalMissingMetadataTooltip":"Missing metadata",
+    "itemSignalIsRecord":"Editing this item is blocked by a policy in your organization",
+    "itemSignalIsRecordTooltip":"Editing this item is blocked by a policy in your organization",
+    "itemSignalTrending":"Popular item",
+    "itemSignalIsTrendingTooltip":"This item is popular with your colleagues",
+    "itemSignalReadOnly":"Read-only",
+    "itemSignalReadOnlyTooltip":"You do not have permission to edit this item",
+    "sharedColumnSharedFieldText":"Shared",
+    "sharedColumnPrivateFieldText":"Private",
+    "Yes":"Yes",
+    "No":"No",
+    "pathRendererAriaLabelSlash":"slash",
+    "pathRendererLinkAriaLabel":"File path: {0}",
+    "pathRendererLinkTitle":"Click this link to open the folder containing this item",
+    "likesCountTitle":"Likes||Like||Likes",
+    "likesCountTitleIntervals":"0||1||2-",
+    "likesCountAriaLabel":"Likes||Like||Likes",
+    "likesCountAriaLabelIntervals":"0||1||2-",
+    "itemSignalIsFollowed":"You saved this file to read later." 
+  };
+  e.strings = strings;
+  e.default = strings;
+});
+define("lQ",["exports"],function(e){
+  Object.defineProperty(e, "__esModule", { value: true });
+  var strings = {
+    "dateModifiedLabelFormat":"Modified {0}",
+    "gridViewSubTitle":"edited by {0}",
+    "fileTypeFolder":"Folder",
+    "folderItemCount":"Folder has {0} items",
+    "fileTypeNoExtension":"File",
+    "isPrivate":"Private",
+    "isShared":"Shared",
+    "itemCountFormat":"{0} items||{0} item||{0} items",
+    "itemCountIntervals":"0||1||2-",
+    "missingMetadataText":"This file is missing properties that are required by your organization.",
+    "policyTipNotifyText":"This item conflicts with a policy in your organization.",
+    "policyTipBlockText":"Access to this item is blocked. It conflicts with a policy in your organization.",
+    "checkedOutOrLockedWarningTitle":"File is checked out or locked",
+    "checkedOutOrLockedWarning":"You cannot edit the properties of this document while it is checked out or locked for editing by another user",
+    "checkboxAriaLabel":"Checkbox for {0}",
+    "sharedFolderTooltip":"This is a shared folder.",
+    "ariaLabelSelectedState":"Is selected" 
+  };
+  e.strings = strings;
+  e.default = strings;
+});
+define("lC",["exports"],function(e){
+  Object.defineProperty(e, "__esModule", { value: true });
+  var strings = {
+    "PinSite":"Pin Site",
+    "UnpinSite":"Unpin Site",
+    "PinLibrary":"Pin library",
+    "UnpinLibrary":"Unpin library" 
+  };
+  e.strings = strings;
+  e.default = strings;
+});
+define("jc",["exports"],function(e){
+  Object.defineProperty(e, "__esModule", { value: true });
+  var strings = {
+    "files":"Files",
+    "recentTitle":"Recent",
+    "recent":"Recent",
+    "saved":"Saved for later",
+    "sharedWithMe":"Shared with me",
+    "sharedByMe":"Shared by me" 
+  };
+  e.strings = strings;
+  e.default = strings;
+});
+define("f7",["exports"],function(e){
+  Object.defineProperty(e, "__esModule", { value: true });
+  var strings = {
+    "booleanTrue":"yes",
+    "booleanFalse":"no",
+    "EmptyFilterOptionLabel":"(Empty)",
+    "nullValueGroupHeader":"{0} : Unassigned",
+    "groupHeader":"{0} : {1}",
+    "files":"Files",
+    "listDelimiter":", ",
+    "IpLabelAssignmentMethod_None":"This file has been labelled",
+    "IpLabelAssignmentMethod_Standard":"This file has been automatically labelled",
+    "IpLabelAssignmentMethod_Privileged":"This file has been manually labelled" 
+  };
+  e.strings = strings;
+  e.default = strings;
+});
+define("ia",["exports"],function(e){e.strings=e.default={"Files":"My files","Recent":"Recent","RecentActivity":"Recent Activity","SharedWithMe":"Shared with me","RecycleBin":"Recycle bin","DiscoverView":"Discover","Photos":"Photos","GetOneDriveApps":"Get the OneDrive apps","Devices":"PCs","Shared":"Shared","DocsInCommon":"Our files","SwitchBack":"Return to classic OneDrive","DiscoverLearnMore":"What files might appear here?","NewManageStorage":"Manage storage","Upgrade":"Get more storage","SharedWithUs":"Shared with us","cleanUpFiles":"Clean up files","adminLink":"OneDrive admin","PlansAndUpgrades":"Plans and upgrades","oneDriveGroupHeaderFormat":"{0} - {1}","oneDriveGroupTitle":"OneDrive","consumerOneDriveName":"Personal","Saved":"Saved for later"}})
+define("gx",["exports"],function(e){
+  Object.defineProperty(e, "__esModule", { value: true });
+  var strings = {
+    "Name":"Name",
+    "Date":"Date",
+    "ModifiedDate":"Modified",
+    "AccessedDate":"Accessed",
+    "ModifiedBy":"Modified by",
+    "Sharing":"Sharing",
+    "Rating":"Rating",
+    "Likes":"Number of Likes",
+    "FileSize":"File size",
+    "FileType":"File Type",
+    "ItemIsARecord":"Item is a Record",
+    "SavedDate":"Saved date" 
+  };
+  e.strings = strings;
+  e.default = strings;
+});
+define("gq",["exports"],function(e){
+  Object.defineProperty(e, "__esModule", { value: true });
+  var strings = {
+    "fileSizeTB":"{0} TB",
+    "fileSizeGB":"{0} GB",
+    "fileSizeMB":"{0} MB",
+    "fileSizeKB":"{0} KB",
+    "fileSizeBytesPlural":"{0} bytes",
+    "fileSizeBytesSingular":"1 byte" 
+  };
+  e.strings = strings;
+  e.default = strings;
+});
+define("go",["exports"],function(e){
+  Object.defineProperty(e, "__esModule", { value: true });
+  var strings = {
+    "yes":"Yes",
+    "no":"No" 
+  };
+  e.strings = strings;
+  e.default = strings;
+});
+define("gg",["exports"],function(e){
+  Object.defineProperty(e, "__esModule", { value: true });
+  var strings = {
+    "RelativeDateTime_AFewSeconds":"A few seconds ago",
+    "RelativeDateTime_AFewSeconds_StartWithLowerCase":"a few seconds ago",
+    "RelativeDateTime_AFewSecondsFuture":"In a few seconds",
+    "RelativeDateTime_AFewSecondsFuture_StartWithLowerCase":"in a few seconds",
+    "RelativeDateTime_AboutAMinuteFuture":"In about a minute",
+    "RelativeDateTime_AboutAMinuteFuture_StartWithLowerCase":"in about a minute",
+    "RelativeDateTime_LessThanAMinute":"Less than a minute ago",
+    "RelativeDateTime_LessThanAMinute_StartWithLowerCase":"less than a minute ago",
+    "RelativeDateTime_AboutAMinute":"About a minute ago",
+    "RelativeDateTime_AboutAMinute_StartWithLowerCase":"about a minute ago",
+    "RelativeDateTime_XMinutesFuture":"In {0} minute||In {0} minutes",
+    "RelativeDateTime_XMinutesFuture_StartWithLowerCase":"in {0} minute||in {0} minutes",
+    "RelativeDateTime_XMinutesFutureIntervals":"1||2-",
+    "RelativeDateTime_XMinutesIntervals":"1||2-",
+    "RelativeDateTime_AboutAnHourFuture":"In about an hour",
+    "RelativeDateTime_AboutAnHourFuture_StartWithLowerCase":"in about an hour",
+    "RelativeDateTime_AboutAnHour":"About an hour ago",
+    "RelativeDateTime_AboutAnHour_StartWithLowerCase":"about an hour ago",
+    "RelativeDateTime_Tomorrow":"Tomorrow",
+    "RelativeDateTime_Tomorrow_StartWithLowerCase":"tomorrow",
+    "RelativeDateTime_Yesterday":"Yesterday",
+    "RelativeDateTime_Yesterday_StartWithLowerCase":"yesterday",
+    "RelativeDateTime_YesterdayAndTime":"Yesterday at {0}",
+    "RelativeDateTime_YesterdayAndTime_StartWithLowerCase":"yesterday at {0}",
+    "DateTime_DateAndTime":"{0} at {1}",
+    "RelativeDateTime_TomorrowAndTime":"Tomorrow at {0}",
+    "RelativeDateTime_TomorrowAndTime_StartWithLowerCase":"tomorrow at {0}",
+    "RelativeDateTime_XHoursFuture":"In {0} hour||In {0} hours",
+    "RelativeDateTime_XHoursFuture_StartWithLowerCase":"in {0} hour||in {0} hours",
+    "RelativeDateTime_XHours":"{0} hour ago||{0} hours ago",
+    "RelativeDateTime_XHoursFutureIntervals":"1||2-",
+    "RelativeDateTime_XHoursIntervals":"1||2-",
+    "RelativeDateTime_DayAndTime":"{0} at {1}",
+    "RelativeDateTime_XDaysFuture":"{0} day from now||{0} days from now",
+    "RelativeDateTime_XDays":"{0} day ago||{0} days ago",
+    "RelativeDateTime_XDaysFutureIntervals":"1||2-",
+    "RelativeDateTime_XDaysIntervals":"1||2-",
+    "RelativeDateTime_Today":"Today",
+    "RelativeDateTime_Today_StartWithLowerCase":"today",
+    "RelativeDateTime_XMinutes":"{0} minute ago||{0} minutes ago",
+    "MonthAndYear":"{0} {1}",
+    "today":"Today",
+    "yesterday":"Yesterday" 
+  };
+  e.strings = strings;
+  e.default = strings;
+});
+define("gf",["exports"],function(e){
+  Object.defineProperty(e, "__esModule", { value: true });
+  var strings = {
+    "DateAndTime":"{0} {1}",
+    "FriendlyDateTime_JustNow_withinSentence":"just now",
+    "FriendlyDateTime_JustNow_asSentence":"Just now",
+    "FriendlyDateTime_hoursShort":"{0}h ago",
+    "FriendlyDateTime_minutesShort":"{0}m ago" 
+  };
+  e.strings = strings;
+  e.default = strings;
+});
+define("fL",["exports"],function(e){
+  Object.defineProperty(e, "__esModule", { value: true });
+  var strings = {
+    "NONE":"None",
+    "SUM":"Sum",
+    "COUNT":"Count",
+    "AVG":"Average",
+    "MAX":"Maximum",
+    "MIN":"Minimum",
+    "STDEV":"Std Deviation",
+    "VAR":"Variance" 
+  };
+  e.strings = strings;
+  e.default = strings;
+});
+define("ed",["exports"],function(e){e.strings=e.default={"SearchPlaceholder":"Search","SearchBoxLabel":"Search box; Use the Up and Down arrow keys to see quick matches, and Enter to launch the full search results page.","SearchItemsTitle":"Search results for \"{0}\"","FilteredSearchItemsTitle":"Filtered search results for \"{0}\"","SearchPhotosTitle":"Photos results for \"{0}\"","SearchItemsPassThruLargestTitle":"Largest files in your OneDrive","SearchOneDrivePlaceholder":"Search everything","SearchOneDrivePhotosPlaceholder":"Search photos","SearchDoclibPlaceholder":"Search this library","SearchListPlaceholder":"Search this list","SearchBreadcrumbTitle":"Results from","ScopedFolderSearchMyOdb":"My Files","ScopedFolderSearchNotMyOdb":"{0}'s Files","OdbRootSearchItemName":"All Files","ScopedSiteSearchItemName":"Site","ScopedDocLibSearchItemName":"Library","CurrentFolderSearchScope":"Current folder","CurrentLibrarySearchScope":"Current library","CurrentSiteSearchScope":"Current site","AllSitesInHubSearchScope":"All sites in hub","CurrentListSearchScope":"Current list","WholeOrgSearchScope":"Whole organization"}})

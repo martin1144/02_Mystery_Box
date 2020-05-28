@@ -1,0 +1,107 @@
+define("Sd",["exports"],function(e){
+  Object.defineProperty(e, "__esModule", { value: true });
+  var strings = {
+    "topCollaboratorWith":"You work with {0} often" 
+  };
+  e.strings = strings;
+  e.default = strings;
+});
+define("RW",["exports"],function(e){
+  Object.defineProperty(e, "__esModule", { value: true });
+  var strings = {
+    "unknown":"Unknown",
+    "older":"Older",
+    "thisWeek":"This week",
+    "lastWeek":"Last week",
+    "twoWeeksAgo":"Two weeks ago",
+    "threeWeeksAgo":"Three weeks ago",
+    "thisMonth":"This month",
+    "lastMonth":"Last month" 
+  };
+  e.strings = strings;
+  e.default = strings;
+});
+define("RV",["exports"],function(e){
+  Object.defineProperty(e, "__esModule", { value: true });
+  var strings = {
+    "january":"January",
+    "february":"February",
+    "march":"March",
+    "april":"April",
+    "may":"May",
+    "june":"June",
+    "july":"July",
+    "august":"August",
+    "september":"September",
+    "october":"October",
+    "november":"November",
+    "december":"December",
+    "shortJanuary":"Jan",
+    "shortFebruary":"Feb",
+    "shortMarch":"Mar",
+    "shortApril":"Apr",
+    "shortMay":"May",
+    "shortJune":"Jun",
+    "shortJuly":"Jul",
+    "shortAugust":"Aug",
+    "shortSeptember":"Sep",
+    "shortOctober":"Oct",
+    "shortNovember":"Nov",
+    "shortDecember":"Dec",
+    "sunday":"Sunday",
+    "monday":"Monday",
+    "tuesday":"Tuesday",
+    "wednesday":"Wednesday",
+    "thursday":"Thursday",
+    "friday":"Friday",
+    "saturday":"Saturday",
+    "shortSunday":"S",
+    "shortMonday":"M",
+    "shortTuesday":"T",
+    "shortWednesday":"W",
+    "shortThursday":"T",
+    "shortFriday":"F",
+    "shortSaturday":"S",
+    "goToToday":"Go to today",
+    "setExpirationDate":"Set expiration date",
+    "expirationDateRemoved":"Expiration date removed" 
+  };
+  e.strings = strings;
+  e.default = strings;
+});
+define("Q7",["exports"],function(e){
+  Object.defineProperty(e, "__esModule", { value: true });
+  var strings = {
+    "savedForLaterEmptyStateTitle":"Items you save for later will show up here." 
+  };
+  e.strings = strings;
+  e.default = strings;
+});
+define("SB",["exports"],function(e){
+  Object.defineProperty(e, "__esModule", { value: true });
+  var strings = {
+    "fileSubTextWithAccess":"If you remove this file, you'll still have access to it, but it won't appear here.",
+    "itemsSubTextWithAccess":"If you remove these items, you'll still have access to them, but they won't appear here.",
+    "fileTitleWithAccess":"Remove file",
+    "folderSubTextWithAccess":"If you remove this folder, you'll still have access to it, but it won't appear here.",
+    "folderTitleWithAccess":"Remove folder",
+    "itemsTitleWithAccess":"Remove items",
+    "removeFromSharedListCancelButtonText":"Cancel" 
+  };
+  e.strings = strings;
+  e.default = strings;
+});
+define("SA",["exports"],function(e){
+  Object.defineProperty(e, "__esModule", { value: true });
+  var strings = {
+    "removeStartedItemsTitle":"Removing {0} item||Removing {0} items",
+    "removeStartedItemsTitleIntervals":"1||2-",
+    "removeCompletedItemsTitle":"Removed {0} item||Removed {0} items",
+    "removeCompletedItemsTitleIntervals":"1||2-",
+    "removeFailedItemsTitle":"{0} item wasn't removed||{0} items weren't removed",
+    "removeFailedItemsTitleIntervals":"1||2-",
+    "removeFromSharedListConfirmButtonText":"Remove" 
+  };
+  e.strings = strings;
+  e.default = strings;
+});

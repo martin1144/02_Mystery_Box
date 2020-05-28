@@ -1,0 +1,1 @@
+define("Qz",["exports"],function(e){e.strings=e.default={"yourOneDrive":"your OneDrive"}})
