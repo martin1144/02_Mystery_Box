@@ -1,0 +1,10 @@
+copper ($2) | silver ($4) | copper ($2) - Cost: $10 |Payback: $8 | Current Balance: $48
+Lead ($0) | silver ($4) | silver ($4) - Cost: $10 |Payback: $8 | Current Balance: $46
+copper ($2) | copper ($2) | Lead ($0) - Cost: $10 |Payback: $4 | Current Balance: $40
+Lead ($0) | silver ($4) | Lead ($0) - Cost: $10 |Payback: $4 | Current Balance: $34
+copper ($2) | Lead ($0) | copper ($2) - Cost: $10 |Payback: $4 | Current Balance: $28
+copper ($2) | Lead ($0) | silver ($4) - Cost: $10 |Payback: $6 | Current Balance: $24
+gold ($10) | Lead ($0) | Lead ($0) - Cost: $10 |Payback: $10 | Current Balance: $24
+copper ($2) | Lead ($0) | copper ($2) - Cost: $10 |Payback: $4 | Current Balance: $18
+copper ($2) | copper ($2) | copper ($2) - Cost: $10 |Payback: $6 | Current Balance: $14
+gold ($10) | copper ($2) | copper ($2) - Cost: $10 |Payback: $14 | Current Balance: $18
